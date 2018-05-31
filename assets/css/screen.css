@@ -152,8 +152,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10vw 4vw;
-    min-height: 200px;
+    padding: 5vw 4vw 6vw;
+    min-height: 0px;
     max-height: 450px;
     text-align: center;
 }
@@ -671,13 +671,13 @@ The first (most recent) post in the list is styled to be bigger than the others 
 
 .post-full-header {
     margin: 0 auto;
-    padding: 6vw 3vw 3vw;
+    padding: 5vw 3vw 3vw;
     max-width: 1040px;
     text-align: center;
 }
 @media (max-width: 500px) {
     .post-full-header {
-        padding: 14vw 3vw 10vw;
+        padding: 10vw 3vw 10vw;
     }
 }
 
@@ -706,8 +706,8 @@ The first (most recent) post in the list is styled to be bigger than the others 
 }
 
 .post-full-image {
-    margin: 0 -10vw -165px;
-    height: 800px;
+    margin: 0 -8vw -165px;
+    height: 340px;
     background: var(--lightgrey) center center;
     background-size: cover;
     border-radius: 5px;
@@ -716,21 +716,21 @@ The first (most recent) post in the list is styled to be bigger than the others 
 @media (max-width: 1170px) {
     .post-full-image {
         margin: 0 -4vw -100px;
-        height: 600px;
+        height: 240px;
         border-radius: 0;
     }
 }
 
 @media (max-width: 800px) {
     .post-full-image {
-        height: 400px;
+        height: 240px;
     }
 }
 
 .post-full-content {
     position: relative;
     margin: 0 auto;
-    padding: 70px 100px 0;
+    padding: 50px 80px 0;
     min-height: 230px;
     font-family: Georgia, serif;
     font-size: 2.2rem;
@@ -740,7 +740,7 @@ The first (most recent) post in the list is styled to be bigger than the others 
 
 @media (max-width: 1170px) {
     .post-full-content {
-        padding: 5vw 7vw 0;
+        padding: 4vw 7vw 0;
     }
 }
 @media (max-width: 800px) {
@@ -1075,7 +1075,7 @@ Usage (In Ghost editor):
     }
     .post-full-image {
         margin-bottom: 4vw;
-        height: 350px;
+        height: 200px;
     }
     .post-full-content {
         padding: 0;
